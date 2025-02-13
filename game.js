@@ -3,7 +3,7 @@ let userGuess;
 let attempts = 0;
 let win = false;
 // Prompt user for a number between 1 and 10, or type 999 to exit.
-userGuess = number(prompt("Guess a random number between 1 + 10, or 999 to exit"));
+userGuess = number(prompt("Guess a random number between 1 + 10, or 999 to exit: "));
 // Create while loop that continues for as long as the user guesses are incorrect.
 while(userGuess != randomNumber){
 
